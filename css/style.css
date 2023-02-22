@@ -1,0 +1,90 @@
+html,body{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+}
+  
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+  
+header .logo{
+    font-weight: bolder;
+    font-size: 35px;
+    color: black;
+}
+  
+header .navbar ul {
+    list-style: none;
+}
+  
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+  
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 25px;
+    color: black;
+    display: block;
+}
+  
+header .navbar ul li a:hover{
+    background: black;
+    color: white;
+}
+  
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: white;
+    display: none;
+}
+  
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+  
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+    
+body div.sur_moi{
+    min-height: 640px;
+    background-image: url("../images/fond_sur_moi.jpeg");
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+
+div .pres{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    background-color: black;
+    opacity: 0.6;
+    max-width: 620px;
+}
+
+div div.pres p{
+    margin: 10px 10px 10px 10px;
+    color: #ffffff;
+    font-size: 24px;
+}
