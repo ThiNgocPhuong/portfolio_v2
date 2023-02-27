@@ -70,25 +70,29 @@ header .navbar ul li:hover > ul{
     
 body div.sur_moi{
     min-height: 640px;
-    background-image: url("../images/fond_sur_moi.jpeg");
+    background-image: url("../images/fond_sur_moi.png");
     background-size: cover;
-    background-attachment:fixed;
     
 
 }
 
 div .pres{
     position: absolute;
-    top: 25%;
-    left: 33%;
+    top: 36%;
+    left: 27.8%;
     background-color: black;
-    max-width: 620px;
+    max-width: 673px;
+    font-size: medium;
 }
 
 div div.pres p{
     margin: 10px 10px 10px 10px;
     color: #ffffff;
     font-size: 24px;
+}
+
+div.s1_entreprise{
+    background-color: rgb(232, 227, 227);
 }
 
 div.s1_entreprise img{
